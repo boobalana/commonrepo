@@ -1,0 +1,21 @@
+OPERATION NAME Microsoft.Resources/deployments/validate/action
+STATUS Failed
+EVENT TIMESTAMP Tue Mar 15 2016 00:29:23 GMT+0530 (India Standard Time)
+UTC TIMESTAMP Mon, 14 Mar 2016 18:59:23 GMT
+CALLER admin@sysgaininc.onmicrosoft.com
+AUTHORIZATION 
+action:Microsoft.Resources/deployments/validate/action role: scope:/subscriptions/2f9d8f49-c226-4a8b-83d2-008df35b0016/resourcegroups/orbiteratestdrive694i31711/deployments/orbiteratestdrive694i31711
+RESOURCE URI /subscriptions/2f9d8f49-c226-4a8b-83d2-008df35b0016/resourcegroups/orbiteratestdrive694i31711/deployments/orbiteratestdrive694i31711
+SUBSCRIPTION ID 2f9d8f49-c226-4a8b-83d2-008df35b0016
+EVENT SUBMISSION TIMESTAMP Tue Mar 15 2016 00:29:40 GMT+0530 (India Standard Time)
+OPERATION ID 39add966-2226-4b54-a577-ea0317d0f969
+SUBSTATUS Bad Request (HTTP Status Code: 400)
+CORRELATION ID 39add966-2226-4b54-a577-ea0317d0f969
+HTTP REQUEST 
+clientRequestId: clientIpAddress:54.208.12.64 method:POST
+LEVEL Error
+RESOURCE GROUP orbiteratestdrive694i31711
+RESOURCE PROVIDER Microsoft Resources
+CATEGORY Administrative
+PROPERTIES 
+statusCode:BadRequest serviceRequestId: statusMessage:{"error":{"code":"InvalidTemplate","message":"Deployment template validation failed: 'The provided value for the template parameter 'nodeCount' at line '1' and column '173' is not valid.'."}}
